@@ -4,10 +4,11 @@ This repository contains implementations of popular Machine Learning classificat
 
 ## Algorithms Implemented
 
-- Logistic Regression
-- K-Nearest Neighbors (KNN)
-- Naive Bayes
-
+Logistic Regression
+K-Nearest Neighbors (KNN)
+Naive Bayes
+Decision Tree
+Support Vector Machine (SVM)
 ## Concepts Covered
 
 - Data Preprocessing
@@ -28,17 +29,11 @@ This repository contains implementations of popular Machine Learning classificat
 - Scikit-learn
 - Jupyter Notebook
 
-## Project Structure
-
-```bash
-classification-algorithms/
+  
+  classification-algorithms/
 │
-├── Logistic_Regression.ipynb
-├── KNN_Classification.ipynb
-├── Naive_Bayes.ipynb
-├── datasets/
+├── Classification_Algorithms.ipynb
 └── README.md
-```
 
 ## Learning Objective
 
@@ -67,12 +62,18 @@ pip install -r requirements.txt
 4. Run the Jupyter notebooks
 
 ## Future Improvements
+Random Forest
+Hyperparameter Tuning
+Cross Validation
+Model Comparison Visualization
+GridSearchCV Implementation
 
-- Decision Tree
-- Random Forest
-- Support Vector Machine (SVM)
-- Hyperparameter Tuning
-- Cross Validation
+## Evaluation Metrics Used
+Accuracy Score
+Confusion Matrix
+Precision
+Recall
+F1-Score
 
 ## Author
 
